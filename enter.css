@@ -13,7 +13,7 @@
     margin-left: 2200px;
     height: 77%;
     width: 25%;
-    z-index: +3;
+    z-index: +4;
     transition: transform .5s;
     transform-origin: 16%;
 }
@@ -29,7 +29,7 @@
     margin-left: 2275px;
     z-index: +2;
     animation-name: glow;
-    animation-duration: 0.8s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
