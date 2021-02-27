@@ -1,0 +1,52 @@
+#inside{
+    position: fixed;
+    margin-top: -20px;
+    margin-left: -20px;
+    z-index: 10;
+    opacity: 0;
+    animation-name: glow;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes glow{
+    0% {
+        opacity: 100%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+/* @keyframes gone{
+    from{
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        top: -1000px;
+        left: -1000px;
+    }
+} */
+
+#welcome{
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 135px;
+    font-size: 200px;
+    color: white;
+    font-style: italic;
+}
+
+#gallery{
+    position: fixed;
+    margin-top: -30px;
+    margin-left: -10px;
+    height: 1065px;
+    width: 1800px;
+    z-index: -1;
+}
